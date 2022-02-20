@@ -6,8 +6,8 @@ type sideCountInt uint8
 
 const (
 	SidesTriangle = 3
-	SidesSquare = 4
-	SidesCircle = 0
+	SidesSquare   = 4
+	SidesCircle   = 0
 )
 
 func CalcSquare(sideLen float64, sidesNum sideCountInt) float64 {
@@ -30,5 +30,5 @@ func calcSquare(sideLen float64) float64 {
 }
 
 func calcCircle(sideLen float64) float64 {
-	return math.Pi * math.Pow(sideLen, 2);
+	return math.Pi * math.Pow(sideLen, 2)
 }
